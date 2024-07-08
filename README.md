@@ -77,13 +77,3 @@ We are given two algorithms to analyze and optimize:
        array = [5, 1, 4, 2, 8]
        print(f"Sorted array: {optimized_bubble_sort(array)}")  # Output: [1, 2, 4, 5, 8]
        ```
-
-#### Deliverables:
-1. **Source Code**: Original and optimized versions of each algorithm.
-2. **Documentation**:
-   - **Time Complexity Analysis**: The linear search has **O(n)** complexity. Bubble sort has **O(n^2)** complexity, and the optimized version remains **O(n^2)** but performs better in practice.
-   - **Comparisons**: The optimized bubble sort reduces unnecessary iterations, improving efficiency.
-   - **Trade-offs**: The optimized bubble sort doesn't change time complexity but improves runtime. The code remains simple and readable.
-
-#### Screenshot:
-A screenshot of the code in VS Code is included.
